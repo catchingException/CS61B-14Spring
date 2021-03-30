@@ -30,7 +30,7 @@ class Fraction {
     denominator = d;
   }
 
-  /** Constructs a Fraction n/1. 
+  /* Constructs a Fraction n/1. 
    *  @param n is the numerator.  Must be nonnegative.
    */
   public Fraction(int n) {
