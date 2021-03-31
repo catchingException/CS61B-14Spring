@@ -90,7 +90,7 @@ public class DList2 {
    */
   public void removeFront() {
     // Your solution here.
-    //Part III: removeFront in DList2
+    //Part IV: removeFront in DList2
     if (size>0){
       head.next = head.next.next;
       head.next.prev = head;

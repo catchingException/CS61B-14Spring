@@ -64,9 +64,9 @@ public class SList {
 
   public void insertEnd(Object obj) {
     // Part II //implement a doubly-linked list 
-    //reminder: Actually, we do not have to write the "prev" in this case, it is not useful
+    // Actually, we do not have to write the "prev" in this case, it is not useful
     // the only thing we have to do is adding a "tail"
-    if (head == null){ // we do not have any node in the list
+    if (head == null){ // check whether any node in the list
       head = new SListNode(obj);
       tail = head;
     } else { //at least one node in the list

@@ -98,17 +98,19 @@ public class DList1 {
   public void removeFront() {
     // Your solution here.
     //Part II: removeFront in DList1
-    //for a one-node DList1
-    if (size == 1){
-      head = null;
-      tail = null;
-      size--;
-    }
-    //for a larger DList1
-    else if (size > 1){
-      head = head.next;
-      head.prev = null;
-      size--;
+    if (size !=0){//for an empty DList1
+      //for a one-node DList1
+      if (size == 1){
+        head = null;
+        tail = null;
+        size--;
+      }
+      //for a larger DList1
+      else if (size > 1){
+        head = head.next;
+        head.prev = null;
+        size--;
+      }
     }
   }
 

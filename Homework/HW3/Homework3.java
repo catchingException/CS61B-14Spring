@@ -33,7 +33,6 @@ public class Homework3 {
       ints[count] = -1;
       count++;
     }
-    
   }
 
   /**

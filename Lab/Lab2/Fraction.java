@@ -122,8 +122,6 @@ class Fraction {
       return x;
     else
       return gcd(y, x % y );
-    
-    
   }
 
   /** Put the Fraction class through some tests.
@@ -147,9 +145,10 @@ class Fraction {
     System.out.println("\nTesting add:");
 
     //Part II  
-    Fraction sumOfTwo = f1.add(f2);              // Sum of f1 and f2.
-    //Fraction sumOfThree = (f0.add(f1)).add(f2);             // Sum of f0, f1, and f2.
-    Fraction sumOfThree = f0.add(sumOfTwo); 
+    Fraction sumOfTwo = f1.add(f2);          // Sum of f1 and f2.
+    //Fraction sumOfThree = (f0.add(f1)).add(f2); 
+    //we can write like this, but the next line is more concise
+    Fraction sumOfThree = f0.add(sumOfTwo); // Sum of f0, f1, and f2.
 
     System.out.println("The sum of " + f1 + " and " + f2 + " is " + sumOfTwo);
     System.out.println("The sum of " + f0 + ", " + f1 + " and " + f2 + " is " +

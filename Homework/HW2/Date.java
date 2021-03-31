@@ -6,9 +6,9 @@ class Date {
 
     /* Put your private data fields here. */
     //Part II
-    private int dateMonth; //if we use the name like month day year, we have to use this. to access these vars in the following code
-    private int dateDay;   // it is because there are same name on default paremeters from constructor or methods
-    private int dateYear;
+    private int dateMonth; //we can also named the there variable as month, day, year
+    private int dateDay;   //But, when we do that, 
+    private int dateYear;  //we have to use this.month this.day and this.year in the following mehtod
 
     /* Constructs a date with the given month, day and year.   If the date is
      *  not valid, the entire program will halt with an error message.
@@ -41,7 +41,7 @@ class Date {
         int day = Integer.parseInt(dateParts[1]);
         int year = Integer.parseInt(dateParts[2]);
 
-        if (!isValidDate(month, day, year))  //tips: we prefer to write the System.exit(0); first
+        if (!isValidDate(month, day, year))  //we prefer to write the "System.exit(0);" first
             System.exit(0);
         dateMonth = month;
         dateDay = day;
@@ -156,7 +156,7 @@ class Date {
         return totalDay() - d.totalDay();
     }
 
-    ///Part III (add a method to count how many days from 1/1/1 AD to the date)
+    ///Part III (add totalDay() to count how many days from 1/1/1 AD to the date)
     public int totalDay(){
         int totalDay_count=0;
         int year_count=1;
