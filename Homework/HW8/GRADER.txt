@@ -1,0 +1,24 @@
+GRADER file for Homework 8
+
+ Your Name:  Wei-Hsiang Huang
+Your Login:  
+
+Part III.  Running time(million sec) comparisons
+
+  List size         mergesort             quicksort
+      100 		0	              0
+    1,000		2		      1
+   10,000		9		      11
+  100,000		79		      75
+1,000,000	        1326		      853
+
+Part IV.
+
+  Is mergesort stable?  stable 
+  Why or why not?
+
+  Is quicksort stable?  stable 	 
+  Why or why not? 
+	My quicksort with queue implementation is stable!
+	But most of the quicksort algorithms are not stable.
+
