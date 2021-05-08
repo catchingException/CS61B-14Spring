@@ -20,5 +20,4 @@ Part IV.
   Is quicksort stable?  stable 	 
   Why or why not? 
 	My quicksort with queue implementation is stable!
-	But most of the quicksort algorithms are not stable.
-
+	But most of the quicksort algorithms(ex. with i and j in an array)are not stable.
